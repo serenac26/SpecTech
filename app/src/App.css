@@ -1,27 +1,28 @@
-.bigimg{
+:local(.bigimg){
     width: 50px;
     height: 50px;
 }
-.smallimg{
+:local(.smallimg){
     width: 30px;
     height: 30px; 
     margin-top: 5px;
 }
-.text{
+:local(.text){
     font-family: 'Tahoma';
     font-size: 12px;
     padding-left: 2%;   
-    width: 100%; 
+    width: 100%;
     margin: 0px;
 }
-#name{
+:local(.text#name){
     font-size: 14px;
     color: #3B5998;
     padding-top: 0%;
     margin: 0px;
     margin-top: 5px;
 }
-.logo{    
+:local(.text#logo){ 
+    font-size: 24px;   
     font-family: 'Tahoma';
     padding-left: 2%;
     color: white;
@@ -30,27 +31,27 @@
     padding-bottom: 1%;
     margin: 0px;
 }
-.post{
+:local(.post){
     width: 545px; 
     display: inline-flex;
     padding-left: 2%;
     margin: 0px;
 }
-#clickable{
+:local(.clickable){
     color: #3B5998;
     padding-left: 4px;
 }
-#timestamp{
+:local(.text#timestamp){
     color: gray;
 }
-.commentthread{
+:local(.commentthread){
     width: 475px;
     margin-left: 75px;
 }
-.status{
+:local(.status){
     width: 500px;
 }
-#comment{
+:local(.post#comment){
     width: 100%;
     background-color: #e3ecf9;
     margin-bottom: 2px;
